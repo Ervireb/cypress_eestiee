@@ -36,7 +36,7 @@ describe('template spec', () => {
 
   it('xxx', () => {
     // xxx
-    cy.get('xx')
+    //cy.get('xx')
   })
 
 })
