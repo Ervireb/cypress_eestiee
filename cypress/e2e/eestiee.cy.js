@@ -34,6 +34,23 @@ describe('template spec', () => {
     cy.get('div.sidenav-small').contains('Eesti Vabariik')
   })
 
+  it('Services page', () => {
+    // Navigating to the Services page
+    cy.get('div.body-right').contains('Otsi')
+    cy.get('div.body-right').contains('Sisene')
+    cy.get('div.body-right').contains('Menüü').click()
+
+    cy.get('div.sidenav-small').contains('ISETEENINDUS')
+    cy.get('div.sidenav-small').contains('Tervis ja retseptid').click()
+    cy.get('div.sidenav-small').contains('Tervishoid ja arstiabi').click()
+    cy.get('div.sidenav-small').contains('Retseptid').click()
+
+    cy.get('div.article__author').contains('Viimati muudetud')
+    cy.get('a.external').contains('terviseportaalis')
+    // check if on page
+    // task 3 END
+  })
+
   it('xxx', () => {
     // xxx
     //cy.get('xx')
