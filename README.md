@@ -4,4 +4,6 @@ npx cypress open
 
 
 =======================
-Teams ' GitHub link to their autotests with a short report.
+short report
+
+It was an interesting task with a lot of choices, it was interesting to do. Took quite a long time.
